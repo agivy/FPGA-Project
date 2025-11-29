@@ -3,21 +3,24 @@
 This repository contains a Systolic Array implementation in C++ with HLS support. The project includes source code, a Makefile, and instructions for compilation and simulation.
 
 ## Directory Structure
-.
+
+```
+project-root/
 ├── Makefile
 └── src/
     ├── sa.h
     ├── sa.cpp
     └── main.cpp
+```
 
-* `src/sa.h` - Header file containing the Systolic Array definitions.
-* `src/sa.cpp` - Implementation of the Systolic Array functions.
-* `src/main.cpp` - Main program to test the Systolic Array.
-* `Makefile` - Build configuration for compilation and simulation.
+* **`src/sa.h`** – Header file containing the Systolic Array definitions.
+* **`src/sa.cpp`** – Implementation of the Systolic Array functions.
+* **`src/main.cpp`** – Main program to test the Systolic Array.
+* **`Makefile`** – Build configuration for compilation and simulation.
 
 ## Commands
 
-Before building the project, make sure to set up the environment:
+Before building the project, set up the environment:
 
 ```bash
 export PATH="$PATH:/home/coder/.rapidstream-tapa/usr/bin"
@@ -51,9 +54,13 @@ You can change the dimensions `M`, `K`, and `N` of the Systolic Array **only** w
 #define N 16
 ```
 
-Make sure to rebuild the project after modifying these values:
+After modifying these values, rebuild the project:
 
 ```bash
 make clean
 make
 ```
+
+## License
+
+MIT
