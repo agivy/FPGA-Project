@@ -1,18 +1,14 @@
-````markdown
 # FPGA-Project
 
 This repository contains a Systolic Array implementation in C++ with HLS support. The project includes source code, a Makefile, and instructions for compilation and simulation.
 
 ## Directory Structure
-
-```text
 .
 ├── Makefile
 └── src/
     ├── sa.h
     ├── sa.cpp
     └── main.cpp
-````
 
 * `src/sa.h` - Header file containing the Systolic Array definitions.
 * `src/sa.cpp` - Implementation of the Systolic Array functions.
